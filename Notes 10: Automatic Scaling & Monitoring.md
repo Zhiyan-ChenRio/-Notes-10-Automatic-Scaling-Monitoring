@@ -1,1 +1,14 @@
-
+# Chapter 12; Notes 10: Automatic Scaling & Monitoring
+## 12.01 - 12.07
+  What is Load Balancing: Load balancing is the distribution of computational workloads among multiple computers to improve efficiency, enhance performance, and reduce latency, commonly used for internet servers.
+  How does load balancing work: Load balancing is the distribution of incoming requests to servers, managed by a tool called a load balancer, which can be either hardware or software-based, and it uses algorithms to decide which server should handle each request.
+  Static load balancing algorithms: Static load balancing distributes workloads based on a predetermined plan, ignoring the system's current performance, similar to a grocery store employee assigning customers to checkout lines without considering their speed, potentially leading to uneven server workloads and inefficiencies.
+  Dynamic load balancing algorithms: Dynamic load balancing optimizes server performance by distributing traffic based on factors like server health and workload, analogous to a grocery store employee assigning customers to checkout lines for efficiency, with different load balancing algorithms available.
+  Introduction to IT Monitoring: Monitoring IT infrastructure is vital because various complex forms of modern enterprise infrastructure exist, and any downtime or performance issues can lead to substantial revenue losses.
+  What is IT monitoring: IT monitoring assesses the real-time performance of IT infrastructure to detect issues, support resource allocation, enhance security, and analyze usage patterns.
+  What is Auto Scaling: Auto scaling is a cloud computing technique that automatically adjusts the number of active servers in a server farm or pool based on user needs and load balancing capacity.
+  What is Auto Scaling in Cloud Computing: Autoscaling in cloud computing automatically adjusts server capacities or virtual machine instances based on defined conditions like traffic levels, offering cost-effective and reliable performance, while also eliminating the need for manual resource management in response to demand fluctuations.
+  the Difference Between Auto Scaling and Load Balancing: Elastic load balancing and application autoscaling are related concepts that both optimize server management and traffic distribution, often used together, but they are distinct; elastic load balancing focuses on distributing traffic and ensuring healthy instances, while application autoscaling adjusts instance numbers based on predefined criteria to meet demand efficiently.
+  Elastic Load Balancing: Elastic Load Balancing is a service that distributes incoming traffic across various targets while monitoring their health and automatically adjusting capacity to handle changes in traffic.
+  Amazon CloudWatch: Amazon CloudWatch provides real-time monitoring for AWS resources and applications, allowing you to collect and track measurable metrics.
+  
